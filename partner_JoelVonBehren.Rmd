@@ -1,0 +1,18 @@
+---
+title: "partner_JoelVonBehren"
+author: "Joel Von Behren"
+date: "9/5/2019"
+output: html_document
+---
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = TRUE)
+```
+
+##Part 1
+
+Joel Von Behren  jvonbehren
+
+The file knitted without error.
+
+Don't forget to add files before pushing
