@@ -1,0 +1,15 @@
+---
+title: "partner_KennethMendoza"
+output: html_document
+---
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = TRUE)
+```
+
+## Step 2
+1. Joel Von Behren, Github username: jvonbehren
+2. initial commit, ID:45a4220
+3. I am able to knit jvonbehren.Rmd
+4. Always make sure where you are with the command "pwd"
+
