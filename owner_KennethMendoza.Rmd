@@ -19,3 +19,42 @@ knitr::opts_chunk$set(echo = TRUE)
 
 4. An interesting fact about myself is that I own a pet rat named Morph
 
+#Understanding Concepts
+
+1. Git can be seen as a tool to manage source code history. GitHub is a service that holds Git Projects. Git can be seen as a tool and GitHub as a shed that holds said tool.
+
+2.Git and GitHub cannot be used independently as you cannot code in GitHub, you may only access repositories in GitHub. You may use Git independently from GitHub if you would like to keep repositories on your local file there and only there. Advantages to using GitHub is that you can share files with others to work on projects and such, whereas if you just use Git, you would have to work on it alone from one source.
+
+3. A Git repository is a storage space where projects can live. Using the code "git init" initalizes a new Git repository.
+
+# Coding Exercises
+1. X = c(47,34,33,65,37,NA,43,NA,11,NA,23,NA)
+  length(X[c(X=="NA")])
+
+  
+2. example_data[3,3]= 150
+
+3.
+Percent_NA = function(x)
+{
+  prcnt = mean(is.na(x)) #Divides the number of values in X by the number of NA in the dataset
+  return(prcnt)
+}
+
+percent_total=function(X)
+{
+  total = X/sum(X, na.rm = TRUE) #Takes value of X at i and divides it by the sum of values in vector(excluding NA)
+  return(total)
+}  
+percent_total(X)
+
+4. 
+both_na = function(X,Y)
+{
+  both_x = which(is.na(X))
+  both_y = which(is.na(Y))
+  return(both_x)
+  return(both_y)
+}  
+both_na(X,Y)
+
